@@ -4,17 +4,23 @@ import { getActiveTabURL } from "./utils.js";
 const addNewBookmark = (bookmarksElement, bookmark) => {
     const bookmarkTitleElement = document.createElement("div")
     const newBookmarkElement = document.createElement("div")
+    const controlsElement = document.createElement("div")
 
     bookmarkTitleElement.textContent = bookmark.desc
     bookmarkTitleElement.className = "bookmark-title"
+
+    controlsElement.className = "bookmark-controls"
 
     newBookmarkElement.id = "bookmark-" + bookmark.time;
     newBookmarkElement.className = "bookmark"
     newBookmarkElement.setAttribute("timestamp", bookmark.time)
 
-    newBookmarkElement.appendChild(bookmarkTitleElement)
+    setBookmarkAttributes("play", onPlay, controlsElement)
 
+    newBookmarkElement.appendChild(bookmarkTitleElement)
+    newBookmarkElement.appendChild(controlsElement)
     bookmarksElement.appendChild(newBookmarkElement)
+
 
 
 };
@@ -32,11 +38,24 @@ const viewBookmarks = (currentBookmars = []) => {
     }
 };
 
-const onPlay = e => {};
+const onPlay = e => {
+    console.log(e.target)
+};
 
 const onDelete = e => {};
 
-const setBookmarkAttributes =  () => {};
+
+const setBookmarkAttributes =  (src, eventListenerFunc, controlParentElement) => {
+    const controlElement = document.createElement("img")
+
+    controlElement.src = "assets/" + src + ".png"
+    controlElement.title = src
+
+    controlElement.addEventListener("click", eventListenerFunc)
+
+    controlParentElement.appendChild(controlElement)
+};
+
 
 document.addEventListener("DOMContentLoaded", async () => {
     const activeTab = await getActiveTabURL();
