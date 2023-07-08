@@ -38,8 +38,16 @@ const viewBookmarks = (currentBookmars = []) => {
     }
 };
 
-const onPlay = e => {
-    console.log(e.target)
+const onPlay = async e => {
+    const bookmarkTime = e.target.parentNode.parentNode.getAttribute("timestamp");
+
+    const activeTab = await getActiveTabURL()
+
+    chrome.tabs.sendMessage(activeTab.id, {
+        type : "PLAY",
+        value : bookmarkTime
+    })
+
 };
 
 const onDelete = e => {};
