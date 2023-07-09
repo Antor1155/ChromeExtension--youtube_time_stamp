@@ -57,7 +57,7 @@
         currentVideoBookmarks = currentVideoBookmarks.filter((b) => b.time != value);
         chrome.storage.sync.set({ [currentVideo]: JSON.stringify(currentVideoBookmarks) });
   
-        response(currentVideoBookmarks);
+        // response(currentVideoBookmarks);
       }
     });
   

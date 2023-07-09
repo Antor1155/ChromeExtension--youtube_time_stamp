@@ -59,7 +59,12 @@ const onDelete = async e => {
   chrome.tabs.sendMessage(activeTab.id, {
     type: "DELETE",
     value: bookmarkTime,
-  }, viewBookmarks);
+  });
+
+//   chrome.tabs.sendMessage(activeTab.id, {
+//     type: "DELETE",
+//     value: bookmarkTime,
+//   }, viewBookmarks);
 };
 
 const setBookmarkAttributes =  (src, eventListener, controlParentElement) => {
@@ -70,6 +75,7 @@ const setBookmarkAttributes =  (src, eventListener, controlParentElement) => {
   controlElement.addEventListener("click", eventListener);
   controlParentElement.appendChild(controlElement);
 };
+
 
 document.addEventListener("DOMContentLoaded", async () => {
   const activeTab = await getActiveTabURL();
@@ -90,4 +96,5 @@ document.addEventListener("DOMContentLoaded", async () => {
     container.innerHTML = '<div class="title">This is not a youtube video page.</div>';
   }
 });
+
 
