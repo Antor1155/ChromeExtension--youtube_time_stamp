@@ -1,5 +1,5 @@
 {
-    "name": "YT time:video Bookmark",
+    "name": "YT time:video Bookmark by Antor",
     "version": "0.1.0",
     "description": "Saving timestamps in YT videos",
     "permissions": ["storage", "tabs"],
@@ -30,7 +30,7 @@
         "24": "assets/ext-icon.png",
         "32": "assets/ext-icon.png"
       },
-      "default_title": "YT time:video Bookmark",
+      "default_title": "YT time:video Bookmark by Antor",
       "default_popup": "popup.html"
     },
     "manifest_version": 3
