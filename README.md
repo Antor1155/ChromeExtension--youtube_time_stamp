@@ -10,7 +10,7 @@ email: md.antor1155@gmail.com
 <br>
 <h1 align="center"> Instruction to add the extension : </h1>
 
-[ note: this extension only works on Chrome brower : desktop version .// Clone to give feedback and push any update you like to different branch than "main" ]
+[ note: this extension only works on Chrome brower : desktop version .// Clone to give feedback and push any update you like to contribute, different branch than "main" ]
 
 * Clone the git repo to your machine. 
 
@@ -18,7 +18,7 @@ email: md.antor1155@gmail.com
 * Click on Chrome extension icon.
 
 <div display="flex" align="center">
-<img width="50%" src="assets/instructionImg/extension-icon.png">
+<img width="60%" src="assets/instructionImg/extension-icon.png">
 </div>
 
 <br>
@@ -27,7 +27,7 @@ email: md.antor1155@gmail.com
 
 * click on Manage extension icon.
 <div display="flex" align="center">
-<img width="50%" src="assets/instructionImg/manageExtension.png">
+<img width="60%" src="assets/instructionImg/manageExtension.png">
 </div>
 <br>
 <br>
@@ -35,7 +35,7 @@ email: md.antor1155@gmail.com
 
 * Turn on Developer mode.
 <div display="flex" align="center">
-<img width="50%" src="assets/instructionImg/developermode.png">
+<img width="60%" src="assets/instructionImg/developermode.png">
 </div>
 <br>
 <br>
@@ -44,7 +44,7 @@ email: md.antor1155@gmail.com
 
 * Click load unpacked.
 <div display="flex" align="center">
-<img width="50%" src="assets/instructionImg/loadunpacked.png">
+<img width="60%" src="assets/instructionImg/loadunpacked.png">
 </div>
 <br>
 <br>
@@ -54,7 +54,7 @@ email: md.antor1155@gmail.com
 * Now you must see "YT time:video Bookmark by Antor 0.1.0" added to the extension grid.
 <br>
 <div display="flex" align="center">
-<img width="50%" src="assets/instructionImg/yt.png">
+<img width="60%" src="assets/instructionImg/yt.png">
 </div>
 <br>
 <br>
@@ -62,14 +62,14 @@ email: md.antor1155@gmail.com
 
 * Click on extension icon again.
 <div display="flex" align="center">
-<img width="50%" src="assets/instructionImg/extension-icon.png">
+<img width="60%" src="assets/instructionImg/extension-icon.png">
 </div>
 
 <br>
 
 * pin the extension to show on top and easy access.
 <div display="flex" align="center">
-<img width="50%" src="assets/instructionImg/pin.png">
+<img width="60%" src="assets/instructionImg/pin.png">
 </div>
 <br>
 <br>
@@ -85,7 +85,7 @@ email: md.antor1155@gmail.com
 
 * You will see an add sign in Youtube video control panel.
 <div display="flex" align="center">
-<img width="50%" src="assets/instructionImg/addsing.png">
+<img width="60%" src="assets/instructionImg/addsing.png">
 </div>
 <br>
 <br>
@@ -94,21 +94,21 @@ email: md.antor1155@gmail.com
 
 * Click on the "YT bookmark" extension icon to see all saved bookmark.
 <div display="flex" align="center">
-<img width="50%" src="assets/instructionImg/bookmarked.png">
+<img width="60%" src="assets/instructionImg/bookmarked.png">
 </div>
 <br>
 <br>
 
 * Click play button on the bookmark to take the Youtube video to that particulat time.
 <div display="flex" align="center">
-<img width="50%" src="assets/instructionImg/playbtn.png">
+<img width="60%" src="assets/instructionImg/playbtn.png">
 </div>
 <br>
 <br>
 
 * Click on detele icon to delete the bookmark on current video.
 <div display="flex" align="center">
-<img width="50%" src="assets/instructionImg/dltbtn.png">
+<img width="60%" src="assets/instructionImg/dltbtn.png">
 </div>
 <br>
 <br>
@@ -116,14 +116,14 @@ email: md.antor1155@gmail.com
 
 * If not on YouTube video play page, "YT bookmark" will show, " This is not a youtube video page"
 <div display="flex" align="center">
-<img width="50%" src="assets/instructionImg/notyoutube.png">
+<img width="60%" src="assets/instructionImg/notyoutube.png">
 </div>
 <br>
 <br>
 
 * can go to any other video and can have as many bookmarks as you want.
 <div display="flex" align="center">
-<img width="50%" src="assets/instructionImg/allB.png">
+<img width="60%" src="assets/instructionImg/allB.png">
 </div>
 
 
