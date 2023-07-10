@@ -134,10 +134,12 @@ email: md.antor1155@gmail.com
 <br>
 
 <h1 align="center">Extension will remember all your bookmarks</h1>
-<h2 align="center">seperately for different videos; even after the browser is closed  or the system switched off</h2>
+<h2 align="center">Seperately for different videos; even after the browser is closed  or the system switched off</h2>
 
 <br>
 <br>
 <br>
 
 <h1 align="center">	&#128513; Enjoy and wish me best of luck !!! &#128151;</h1>
+
+see
