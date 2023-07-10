@@ -4,13 +4,13 @@ By : [MD AZIZUL HAKIM ANTOR](https://www.linkedin.com/in/md-antor/)
 <br>
 email: md.antor1155@gmail.com
 
-## An Extention to save timeStamp while watching a youtube video to later come back and start from same place with just a click on bookmarks.
+## An Extention to save timeStamp while watching a youtube video to later come back and start from same place with just a click on bookmark.
 [manifest: v3]
 <br>
 <br>
 <h1 align="center"> Instruction to add the extension : </h1>
 
-[ note: this extension only works on Chrome brower : desktop version .// Clone to give feedback and push any update you like to contribute, different branch than "main" ]
+[ note: this extension only works on Chrome browser : desktop version .// Clone to give feedback and push any update you like to contribute, different branch than "main" ]
 
 * Clone the git repo to your machine. 
 
@@ -134,7 +134,7 @@ email: md.antor1155@gmail.com
 <br>
 
 <h1 align="center">Extension will remember all your bookmarks</h1>
-<h2 align="center"> Even after the browser is closed  or the system switched off</h2>
+<h2 align="center">seperately for different videos; even after the browser is closed  or the system switched off</h2>
 
 <br>
 <br>
